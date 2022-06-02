@@ -7,9 +7,9 @@ public class Solution {
         for (int i : nums)
         {
             if (mySet.contains(i)) {
-                return true;
+                return true;            // contains DUPLICATE
             } else {
-                mySet.add(i);
+                mySet.add(i);           //false~ does not Contain
             }
 
         }
